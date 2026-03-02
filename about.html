@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bloom Valley Nursery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo-title">
+                <img src="images/logo/logo.png" alt="Bloom Valley Nursery logo" class="logo">
+                <h1>Bloom Valley Nursery</h1>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="community.html">Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="title">About Bloom Valley Nursery</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="body">Welcome to Bloom Valley Nursery, your trusted partner in creating beautiful, thriving gardens since 1995. Located in the heart of the valley, we have been serving passionate gardeners and plant enthusiasts for over 25 years.</p>
+
+                    <p class="body">Our mission is to provide the highest quality plants, gardening supplies, and expert knowledge to help you cultivate the garden of your dreams. Whether you're a seasoned gardener or just starting your green journey, our experienced staff is here to guide you every step of the way.</p>
+
+                    <p class="body">We pride ourselves on sourcing healthy, sustainably grown plants from trusted local and regional growers. Our extensive selection includes everything from perennials and annuals to rare specialty plants, ensuring you'll find exactly what you need to bring your vision to life.</p>
+
+                    <p class="body">At Bloom Valley Nursery, we believe gardening is more than just a hobby—it's a way to connect with nature, beautify your surroundings, and create a healthier environment for future generations.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop" alt="Bloom Valley Nursery greenhouse">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Hours -->
+    <section class="hours-section">
+        <div class="container">
+            <h2 class="title">Business Hours</h2>
+            <p class="body hours-lead">Drop by during opening hours or get in touch to plan your visit.</p>
+            <div class="hours-card">
+                <div class="hours-item hours-slot">
+                    <p class="caption hours-label">Weekdays</p>
+                    <p class="body-strong">Monday - Friday</p>
+                    <p class="body hours-time">9 a.m. - 6 p.m.</p>
+                </div>
+                <div class="hours-item hours-slot">
+                    <p class="caption hours-label">Weekend</p>
+                    <p class="body-strong">Saturday - Sunday</p>
+                    <p class="body hours-time">10 a.m. - 5 p.m.</p>
+                </div>
+            </div>
+            <div class="hours-contact">
+                <p class="body"><strong>Visit:</strong> 123 Garden Lane, Bloom Valley</p>
+                <p class="body"><strong>Call:</strong> (555) 123-4567</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback & Custom Order Form -->
+    <section class="form-section">
+        <div class="container">
+            <h2 class="title">Feedback & Custom Orders</h2>
+            <p class="body form-intro">Have a question, feedback, or need a custom order? Fill out the form below and we'll get back to you as soon as possible.</p>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name" class="body-strong">Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" aria-required="true" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="body-strong">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" aria-required="true" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" class="body-strong">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="body-strong">Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="6" aria-required="true" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="body-strong">Newsletter</h3>
+                <p class="body">Subscribe for tips, updates, and exclusive offers</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email" aria-label="Email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3 class="body-strong">Follow Us</h3>
+                <div class="social-links" aria-label="Social links">
+                    <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.5 1.6-1.5h1.7V5c-.3 0-1.4-.1-2.7-.1-2.7 0-4.5 1.6-4.5 4.7V11H6.8v3h2.7v8h4z"/></svg></span>
+                        <span class="social-label">Facebook</span>
+                    </a>
+                    <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></span>
+                        <span class="social-label">Instagram</span>
+                    </a>
+                    <a href="https://pinterest.com" aria-label="Pinterest" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true"><path d="M12 2C6.5 2 3 5.6 3 10.2c0 3.5 2 5.5 3.2 5.5.5 0 .8-1.3.8-1.7 0-.4-1-1.2-1-3 0-3.6 2.7-6.1 6.2-6.1 3 0 5.3 1.7 5.3 4.8 0 2.3-1 6.7-4 6.7-1.1 0-2-1-1.8-2.1.3-1.3.8-2.7.8-4.1 0-2.4-3.4-2.2-3.4 1.1 0 1 .3 1.7.3 1.7L8 20c1.8.3 2.6-.2 2.6-.2l.9-3.5c.5.9 1.9 1.7 3.3 1.7 4.3 0 6.2-4.3 6.2-8.5C21 4.8 16.9 2 12 2z"/></svg></span>
+                        <span class="social-label">Pinterest</span>
+                    </a>
+                    <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true"><path d="M22 5.8c-.7.3-1.5.5-2.3.6.8-.5 1.4-1.2 1.7-2.2-.8.5-1.7.8-2.6 1-1.5-1.6-4-1.6-5.5-.1-1 .9-1.4 2.3-1.1 3.6-3.1-.2-5.9-1.7-7.8-4.1-1 1.8-.5 4 .9 5.1-.6 0-1.2-.2-1.8-.5 0 2 1.4 3.8 3.4 4.2-.6.2-1.2.2-1.8.1.5 1.7 2.1 2.9 3.9 2.9-1.5 1.2-3.4 1.8-5.3 1.8H3c1.9 1.2 4.1 1.8 6.3 1.8 7.6 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg></span>
+                        <span class="social-label">X</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="body-strong">Quick Links</h3>
+                <nav class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About Us</a>
+                    <a href="community.html">Community</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="body">&copy; 2026 Bloom Valley Nursery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

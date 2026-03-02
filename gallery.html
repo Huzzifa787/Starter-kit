@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Bloom Valley Nursery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo-title">
+                <img src="images/logo/logo.png" alt="Bloom Valley Nursery logo" class="logo">
+                <h1>Bloom Valley Nursery</h1>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="community.html">Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-header">
+                <h2 class="title">Our Products</h2>
+                <button class="btn btn-primary" id="viewCartBtn">View Cart (<span id="cartCount">0</span>)</button>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="images/products/Client1_AloePlant.png" alt="Aloe Plant" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">Aloe Plant</h3>
+                        <p class="body">Drought-tolerant indoor favorite with soothing leaves.</p>
+                        <p class="body-strong product-price">$15.99</p>
+                        <button class="btn btn-cart" data-id="1" data-name="Aloe Plant" data-price="15.99">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/products/Client1_AppleTree.png" alt="Apple Tree" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">Apple Tree</h3>
+                        <p class="body">Fruit-bearing tree perfect for home orchards.</p>
+                        <p class="body-strong product-price">$32.99</p>
+                        <button class="btn btn-cart" data-id="2" data-name="Apple Tree" data-price="32.99">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/products/Client1_BirchTree.png" alt="Birch Tree" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">Birch Tree</h3>
+                        <p class="body">Elegant white bark tree for standout landscapes.</p>
+                        <p class="body-strong product-price">$24.99</p>
+                        <button class="btn btn-cart" data-id="3" data-name="Birch Tree" data-price="24.99">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/products/Client1_BirdHouse.png" alt="Bird House" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">Bird House</h3>
+                        <p class="body">Decorative shelter to attract birds to your garden.</p>
+                        <p class="body-strong product-price">$28.50</p>
+                        <button class="btn btn-cart" data-id="4" data-name="Bird House" data-price="28.50">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/products/Client1_MapleTree.png" alt="Maple Tree" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">Maple Tree</h3>
+                        <p class="body">Beautiful shade tree with striking seasonal color.</p>
+                        <p class="body-strong product-price">$42.00</p>
+                        <button class="btn btn-cart" data-id="5" data-name="Maple Tree" data-price="42.00">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/products/Client1_PottingSoil.png" alt="Potting Soil" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">Potting Soil</h3>
+                        <p class="body">Nutrient-rich mix for healthy roots and growth.</p>
+                        <p class="body-strong product-price">$8.99</p>
+                        <button class="btn btn-cart" data-id="6" data-name="Potting Soil" data-price="8.99">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/products/Client1_SpiderPlant.png" alt="Spider Plant" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">Spider Plant</h3>
+                        <p class="body">Easy-care air-purifying plant for any room.</p>
+                        <p class="body-strong product-price">$18.75</p>
+                        <button class="btn btn-cart" data-id="7" data-name="Spider Plant" data-price="18.75">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/products/Client1_StringofPearls.png" alt="String of Pearls" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">String of Pearls</h3>
+                        <p class="body">Trailing succulent that adds texture to shelves.</p>
+                        <p class="body-strong product-price">$35.00</p>
+                        <button class="btn btn-cart" data-id="8" data-name="String of Pearls" data-price="35.00">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/products/Client1_WateringCan.png" alt="Watering Can" class="product-image">
+                    <div class="product-card-content">
+                        <h3 class="body-strong">Watering Can</h3>
+                        <p class="body">Balanced pour design for daily plant care.</p>
+                        <p class="body-strong product-price">$45.99</p>
+                        <button class="btn btn-cart" data-id="9" data-name="Watering Can" data-price="45.99">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal" role="dialog" aria-labelledby="cartModalTitle" aria-modal="true">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal" aria-label="Close cart">&times;</button>
+            <h2 class="title" id="cartModalTitle">Shopping Cart</h2>
+            <div id="cartItems" class="cart-items"></div>
+            <div class="cart-total">
+                <p class="body-strong">Total: $<span id="cartTotal">0.00</span></p>
+            </div>
+            <div class="cart-actions">
+                <button class="btn btn-secondary" id="clearCartBtn">Clear Cart</button>
+                <button class="btn btn-primary" id="processOrderBtn">Process Order</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="body-strong">Newsletter</h3>
+                <p class="body">Subscribe for tips, updates, and exclusive offers</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email" aria-label="Email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3 class="body-strong">Follow Us</h3>
+                <div class="social-links" aria-label="Social links">
+                    <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.9.3-1.5 1.6-1.5h1.7V5c-.3 0-1.4-.1-2.7-.1-2.7 0-4.5 1.6-4.5 4.7V11H6.8v3h2.7v8h4z"/></svg></span>
+                        <span class="social-label">Facebook</span>
+                    </a>
+                    <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></span>
+                        <span class="social-label">Instagram</span>
+                    </a>
+                    <a href="https://pinterest.com" aria-label="Pinterest" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true"><path d="M12 2C6.5 2 3 5.6 3 10.2c0 3.5 2 5.5 3.2 5.5.5 0 .8-1.3.8-1.7 0-.4-1-1.2-1-3 0-3.6 2.7-6.1 6.2-6.1 3 0 5.3 1.7 5.3 4.8 0 2.3-1 6.7-4 6.7-1.1 0-2-1-1.8-2.1.3-1.3.8-2.7.8-4.1 0-2.4-3.4-2.2-3.4 1.1 0 1 .3 1.7.3 1.7L8 20c1.8.3 2.6-.2 2.6-.2l.9-3.5c.5.9 1.9 1.7 3.3 1.7 4.3 0 6.2-4.3 6.2-8.5C21 4.8 16.9 2 12 2z"/></svg></span>
+                        <span class="social-label">Pinterest</span>
+                    </a>
+                    <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true"><path d="M22 5.8c-.7.3-1.5.5-2.3.6.8-.5 1.4-1.2 1.7-2.2-.8.5-1.7.8-2.6 1-1.5-1.6-4-1.6-5.5-.1-1 .9-1.4 2.3-1.1 3.6-3.1-.2-5.9-1.7-7.8-4.1-1 1.8-.5 4 .9 5.1-.6 0-1.2-.2-1.8-.5 0 2 1.4 3.8 3.4 4.2-.6.2-1.2.2-1.8.1.5 1.7 2.1 2.9 3.9 2.9-1.5 1.2-3.4 1.8-5.3 1.8H3c1.9 1.2 4.1 1.8 6.3 1.8 7.6 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg></span>
+                        <span class="social-label">X</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="body-strong">Quick Links</h3>
+                <nav class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About Us</a>
+                    <a href="community.html">Community</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="body">&copy; 2026 Bloom Valley Nursery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
