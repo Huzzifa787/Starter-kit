@@ -93,18 +93,18 @@ document.addEventListener('DOMContentLoaded', function() {
 // ========================================
 
 /**
- * Get cart from localStorage
+ * Get cart from sessionStorage
  */
 function getCart() {
-    const cart = localStorage.getItem('bloomValleyCart');
+    const cart = sessionStorage.getItem('bloomValleyCart');
     return cart ? JSON.parse(cart) : [];
 }
 
 /**
- * Save cart to localStorage
+ * Save cart to sessionStorage
  */
 function saveCart(cart) {
-    localStorage.setItem('bloomValleyCart', JSON.stringify(cart));
+    sessionStorage.setItem('bloomValleyCart', JSON.stringify(cart));
 }
 
 /**
@@ -186,7 +186,7 @@ function renderCartItems() {
  * Clear cart
  */
 function clearCart() {
-    localStorage.removeItem('bloomValleyCart');
+    sessionStorage.removeItem('bloomValleyCart');
     updateCartCount();
     renderCartItems();
 }
